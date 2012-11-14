@@ -1,0 +1,1 @@
+define(function(e,t,n){var r=e("backbone");this._=e("underscore");var i=e("/assets/js/app/collections/todos"),s=r.Router.extend({routes:{"*filter":"setFilter"},setFilter:function(e){TodoFilter=e.trim()||"",i.trigger("filter")}}),o=new s;return r.history.start(),o});

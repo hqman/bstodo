@@ -1,0 +1,1 @@
+define(function(e,t,n){var r=e("/assets/js/app/views/app"),i=13;t.init=function(){console.log("start app...."),new r}});

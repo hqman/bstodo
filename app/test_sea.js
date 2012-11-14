@@ -1,0 +1,1 @@
+define(function(e,t){var n=e("./test_w");t.message="hello sea",t.do=n.doSomething});

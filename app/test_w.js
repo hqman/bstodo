@@ -1,0 +1,1 @@
+define(function(e,t){var n=e("jquery"),r=e("backbone.localstorage");console.dir(r),t.message="hello test_w",t.doSomething=function(){console.log("do some thing")}});
